@@ -1,4 +1,4 @@
-# llSPS-INT-2376-University-Admission-Prediction
+# 68681-University-Admission-Prediction
 University Admission Prediction
    
-My account : https://github.com/saairaam
+My account : https://github.com/Avshek101
