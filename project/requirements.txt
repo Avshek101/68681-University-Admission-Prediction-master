@@ -1,0 +1,6 @@
+Flask==1.0.2
+keras==2.3.1
+numpy==1.16.0
+tensorflow==1.14.0
+pip==20.0.2
+pillow

@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<style>
+body {
+  background-image: url('3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+</style>
+<body  style="background-color:black;">
+<form action = "http://localhost:5000/y_predict" method = "post">	<font color="white">
+<p align="CENTER">UNIVERSITY ADMISSION PREDICTION</p>
+<p align="CENTER">GRE Score</p>
+<p align="CENTER"><input type = "text" name = "gre"/></p>
+<p align="CENTER">TOEFL Score</p>
+<p align="CENTER"><input type = "text" name = "toefl"/></p>
+<p align="CENTER">University Ranking</p>
+<p align="CENTER"><input type = "text" name = "ur"/></p>
+<p align="CENTER">SOP</p>
+<p align="CENTER"><input type = "text" name = "sop"/></p>
+<p align="CENTER">LOR</p>
+<p align="CENTER"><input type = "text" name = "lor"/></p>
+<p align="CENTER">CGPA</p>
+<p align="CENTER"><input type = "text" name = "cgpa"/></p>
+<p align="CENTER">Research</p>
+<p align="CENTER"><input type = "text" name = "research"/></p>
+<p align="CENTER"><input type = "submit" value = "Predict changes"/></p>
+</form>
+<p align="CENTER">{{prediction_text}}</p>
+</font>
+</body>
+</html>
